@@ -1,0 +1,12 @@
+def calcular_temperatura():
+    try:
+        c = float(input("Ingrese la temperatura en grados Celsius: "))
+        f = c * 1.8 + 32
+        print("La temperatura en grados Fahrenheit es: ", f)
+    except ValueError:
+        print("Ingrese valores numéricos.")
+
+calcular_temperatura()45
+
+
+

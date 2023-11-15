@@ -1,0 +1,7 @@
+def contar_palabras():
+    frase = input("Ingrese una frase: ")
+    palabras = frase.split()
+    print("La frase tiene ", len(palabras), " palabras.")
+
+contar_palabras()
+
